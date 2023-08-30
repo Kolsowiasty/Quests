@@ -7,3 +7,6 @@ const originalString = "kot";
 const dupedString = dupeString(originalString);
 
 console.log(dupedString);
+
+
+plik dodany przypadkowo.
