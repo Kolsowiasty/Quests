@@ -1,4 +1,4 @@
-function dupeString(input)
+function dupeString(input: string): string;
 {
     return input + input;
 }
