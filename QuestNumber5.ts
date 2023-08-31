@@ -1,4 +1,4 @@
-function WordFinder(firstArray: string[], secondArray: string)
+function WordFinder(firstArray: string[], secondArray: string): string[]
 {
   const foundString = firstArray.find(string => string.includes(secondArray));
   return foundString;
