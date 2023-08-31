@@ -1,4 +1,4 @@
-function BubbleSortSystem(array: number[])
+function BubbleSortSystem(array: number[]): number
 {
   const a = array.length;
 
