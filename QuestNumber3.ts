@@ -1,4 +1,4 @@
-function FindNumber(a, b, c)
+function FindNumber(a: number, b: number, c: number): number
 {
   return Math.max(a, b, c);
 }
