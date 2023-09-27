@@ -10,7 +10,7 @@ const myObject = {
     const self = this;
 
     setTimeout(function () {
-      console.log(`Wartość pola ${thing}: ${self[thing]}`);
+      console.log(`ClassQuantity ${thing}: ${self[thing]}`);
     },
   },
 };
