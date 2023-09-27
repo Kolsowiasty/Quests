@@ -9,10 +9,9 @@ const myObject = {
 
     const self = this;
 
-    setTimeout(function () {
-      console.log(`ClassQuantity ${thing}: ${self[thing]}`);
-    },
-  },
+    console.log(` ${thing}: ${self[thing]}`);
+
+  }
 };
 
 myObject.displayClass("numberClass");
